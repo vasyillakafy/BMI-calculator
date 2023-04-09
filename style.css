@@ -3,7 +3,7 @@
     margin: 0;
     box-sizing: border-box;
     font-size: 1rem;
-    color: rgb(78, 78, 78); 
+    color: rgb(53, 53, 53); 
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
@@ -61,4 +61,12 @@ button{
 button:hover{
     background-color: rgb(93, 80, 173);
     border: 2px solid rgb(131, 128, 153);
+}
+
+#results{
+    display: flex;
+    align-content: flex-start;
+    text-align: left;
+    margin-top: 2rem;
+    font-weight: 500;
 }
